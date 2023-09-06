@@ -1,0 +1,35 @@
+.navbar {
+  /* #333 */
+    background-color: #0066b2;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+    font-weight: bold;
+
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-list a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-list a:hover {
+    text-decoration: underline;
+    /* border: 2px solid white;
+    padding: 2px; */
+  }
+  

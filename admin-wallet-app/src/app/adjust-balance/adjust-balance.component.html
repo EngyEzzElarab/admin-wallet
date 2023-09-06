@@ -1,0 +1,23 @@
+<div class="adjust-balance">
+  <h2 class="centered">Adjust Balance</h2>
+  <div class="centered">
+    <label for="userSelect">Select User:</label>
+    <select id="userSelect" [(ngModel)]="selectedUser">
+      <option *ngFor="let user of users" [value]="user._id">{{ user.name }}</option>
+    </select>
+  </div>
+  <div class="centered">
+    <label for="adjustmentType">Select Adjustment Type:</label>
+    <select id="adjustmentType" [(ngModel)]="adjustmentType">
+      <option value="deposit">Deposit</option>
+      <option value="withdrawal">Withdrawal</option>
+    </select>
+  </div>
+  <div class="centered">
+    <label for="amountInput">Adjustment Amount:</label>
+    <input id="amountInput" type="number" [(ngModel)]="adjustmentAmount" min="0">
+  </div>
+  <div class="centered">
+    <button (click)="adjustBalance()">Adjust Balance</button>
+  </div>
+</div>

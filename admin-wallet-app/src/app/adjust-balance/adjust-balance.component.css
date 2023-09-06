@@ -1,0 +1,38 @@
+.adjust-balance {
+    padding: 20px;
+  }
+  
+  .adjust-balance h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+
+  }
+  
+  .adjust-balance label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .adjust-balance select,
+  .adjust-balance input {
+    width: 200px;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .adjust-balance button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .centered {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    vertical-align: middle;
+  }
+  
